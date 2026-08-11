@@ -1,0 +1,176 @@
+{
+  "common": {
+    "appName": "Free Stream",
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "retry": "إعادة المحاولة",
+    "search": "بحث",
+    "noResults": "لم يتم العثور على نتائج",
+    "channels": "القنوات",
+    "countries": "البلدان",
+    "categories": "الفئات",
+    "favorites": "المفضلة",
+    "history": "السجل",
+    "live": "مباشر",
+    "watch": "مشاهدة",
+    "back": "رجوع",
+    "home": "الرئيسية",
+    "language": "اللغة",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "support": "الدعم",
+    "legal": "القانونية",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "register": "التسجيل"
+  },
+  "home": {
+    "heroTitle": "شاهد قنواتك المفضلة مباشرة",
+    "heroDescription": "اكتشف القنوات التلفزيونية المتاحة عبر الإنترنت، مرتبة حسب البلد واللغة والفئة.",
+    "exploreChannels": "استكشاف القنوات",
+    "liveChannels": "القنوات المباشرة",
+    "viewAll": "عرض الكل"
+  },
+  "channels": {
+    "title": "جميع القنوات",
+    "subtitle": "Free Stream",
+    "available": "{{count}} قناة متاحة",
+    "categories": {
+      "home": "الرئيسية",
+      "news": "أخبار",
+      "sports": "رياضة",
+      "movies": "أفلام",
+      "series": "مسلسلات",
+      "kids": "أطفال",
+      "music": "موسيقى",
+      "documentary": "وثائقي",
+      "entertainment": "ترفيه",
+      "lifestyle": "نمط الحياة",
+      "religious": "ديني",
+      "shopping": "تسوق",
+      "other": "أخرى"
+      ,
+      "accueil": "الرئيسية",
+      "infos": "أخبار",
+      "sport": "رياضة",
+      "football": "كرة القدم",
+      "jeunesse": "أطفال",
+      "divertissement": "ترفيه",
+      "films-series": "أفلام ومسلسلات",
+      "documentaires": "وثائقي",
+      "musique": "موسيقى",
+      "culture": "ثقافة",
+      "education": "تعليم",
+      "science-technologie": "علوم وتكنولوجيا",
+      "economie": "اقتصاد",
+      "politique": "سياسة",
+      "lifestyle_fr": "نمط الحياة",
+      "cuisine": "طبخ",
+      "voyage": "سفر",
+      "nature": "طبيعة",
+      "meteo": "الطقس",
+      "religieux": "ديني",
+      "automobile": "سيارات",
+      "mode": "موضة",
+      "gaming": "ألعاب",
+      "international": "دولي"
+    },
+    "regions": {
+      "all": "الكل",
+      "africa": "أفريقيا",
+      "americas": "الأمريكتان",
+      "asia": "آسيا",
+      "europe": "أوروبا",
+      "oceania": "أوقيانوسيا"
+      ,
+      "tous": "الكل",
+      "afrique": "أفريقيا",
+      "france": "فرنسا",
+      "etats-unis": "الولايات المتحدة",
+      "royaume-uni": "المملكة المتحدة",
+      "amerique-latine": "أمريكا اللاتينية",
+      "asie": "آسيا",
+      "moyen-orient": "الشرق الأوسط",
+      "oceanie": "أوقيانوسيا",
+      "international": "دولي",
+      "autres": "أخرى"
+    },
+    "searchPlaceholder": "البحث عن قناة...",
+    "loadMore": "تحميل المزيد",
+    "noChannels": "لم يتم العثور على قنوات"
+  },
+  "countries": {
+    "title": "البلدان",
+    "subtitle": "ابحث عن بلد بالاسم أو الرمز",
+    "searchPlaceholder": "البحث عن بلد...",
+    "channelsCount": "{{count}} قناة"
+  },
+  "country": {
+    "channelsIn": "القنوات في {{country}}",
+    "noChannels": "لا توجد قنوات متاحة لهذا البلد"
+  },
+  "categories": {
+    "title": "الفئات",
+    "subtitle": "تصفح القنوات حسب الفئة",
+    "channelsIn": "القنوات في {{category}}",
+    "noChannels": "لا توجد قنوات في هذه الفئة"
+  },
+  "category": {
+    "channelsIn": "القنوات في {{category}}",
+    "noChannels": "لا توجد قنوات في هذه الفئة"
+  },
+  "favorites": {
+    "title": "المفضلة",
+    "subtitle": "قنواتك المفضلة",
+    "empty": "لا توجد مفضلات بعد",
+    "emptyDescription": "اضغط على أيقونة القلب في أي قناة لإضافتها إلى المفضلة",
+    "remove": "إزالة من المفضلة"
+  },
+  "history": {
+    "title": "السجل",
+    "subtitle": "القنوات التي شاهدتها مؤخراً",
+    "empty": "لا يوجد سجل بعد",
+    "emptyDescription": "ستظهر القنوات التي تشاهدها هنا",
+    "clear": "مسح السجل"
+  },
+  "watch": {
+    "live": "مباشر",
+    "offline": "غير متصل",
+    "quality": "الجودة",
+    "fullscreen": "ملء الشاشة",
+    "pictureInPicture": "صورة داخل صورة",
+    "reportIssue": "الإبلاغ عن مشكلة",
+    "share": "مشاركة",
+    "addToFavorites": "إضافة للمفضلة",
+    "removeFromFavorites": "إزالة من المفضلة",
+    "channelInfo": "معلومات القناة",
+    "country": "البلد",
+    "category": "الفئة",
+    "language": "اللغة"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "ar": "العربية"
+  },
+  "footer": {
+    "contact": "اتصل بنا",
+    "privacy": "الخصوصية",
+    "terms": "الشروط",
+    "cookies": "ملفات تعريف الارتباط",
+    "intellectualProperty": "الملكية الفكرية",
+    "report": "إبلاغ",
+    "legal": "القانونية"
+  },
+  "validation": {
+    "title": "التحقق من البث",
+    "description": "تحقق مما إذا كان رابط البث يعمل",
+    "urlPlaceholder": "أدخل رابط البث (m3u8، mp4، إلخ)",
+    "validate": "تحقق",
+    "valid": "البث صالح",
+    "invalid": "البث غير صالح أو لا يمكن الوصول إليه",
+    "checking": "جاري التحقق من البث..."
+  }
+}

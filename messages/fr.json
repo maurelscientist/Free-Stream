@@ -1,0 +1,176 @@
+{
+  "common": {
+    "appName": "Free Stream",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "search": "Rechercher",
+    "noResults": "Aucun résultat trouvé",
+    "channels": "Chaînes",
+    "countries": "Pays",
+    "categories": "Catégories",
+    "favorites": "Favoris",
+    "history": "Historique",
+    "live": "En direct",
+    "watch": "Regarder",
+    "back": "Retour",
+    "home": "Accueil",
+    "language": "Langue",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "support": "Support",
+    "legal": "Mentions légales",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "register": "Inscription"
+  },
+  "home": {
+    "heroTitle": "Regardez vos chaînes préférées en direct",
+    "heroDescription": "Découvrez des chaînes TV disponibles en ligne, classées par pays, langue et catégorie.",
+    "exploreChannels": "Explorer les chaînes",
+    "liveChannels": "Chaînes en direct",
+    "viewAll": "Voir toutes"
+  },
+  "channels": {
+    "title": "Toutes les chaînes",
+    "subtitle": "Free Stream",
+    "available": "{{count}} chaînes disponibles",
+    "categories": {
+      "home": "Accueil",
+      "news": "Actualités",
+      "sports": "Sports",
+      "movies": "Films",
+      "series": "Séries",
+      "kids": "Enfants",
+      "music": "Musique",
+      "documentary": "Documentaire",
+      "entertainment": "Divertissement",
+      "lifestyle": "Style de vie",
+      "religious": "Religieux",
+      "shopping": "Shopping",
+      "other": "Autre"
+      ,
+      "accueil": "Accueil",
+      "infos": "Actualités",
+      "sport": "Sport",
+      "football": "Football",
+      "jeunesse": "Jeunesse",
+      "divertissement": "Divertissement",
+      "films-series": "Films & Séries",
+      "documentaires": "Documentaires",
+      "musique": "Musique",
+      "culture": "Culture",
+      "education": "Éducation",
+      "science-technologie": "Science & Technologie",
+      "economie": "Économie",
+      "politique": "Politique",
+      "lifestyle_fr": "Lifestyle",
+      "cuisine": "Cuisine",
+      "voyage": "Voyage",
+      "nature": "Nature",
+      "meteo": "Météo",
+      "religieux": "Religieux",
+      "automobile": "Automobile",
+      "mode": "Mode",
+      "gaming": "Gaming",
+      "international": "International"
+    },
+    "regions": {
+      "all": "Tous",
+      "africa": "Afrique",
+      "americas": "Amériques",
+      "asia": "Asie",
+      "europe": "Europe",
+      "oceania": "Océanie"
+      ,
+      "tous": "Tous",
+      "afrique": "Afrique",
+      "france": "France",
+      "etats-unis": "États-Unis",
+      "royaume-uni": "Royaume-Uni",
+      "amerique-latine": "Amérique latine",
+      "asie": "Asie",
+      "moyen-orient": "Moyen-Orient",
+      "oceanie": "Océanie",
+      "international": "International",
+      "autres": "Autres"
+    },
+    "searchPlaceholder": "Rechercher une chaîne...",
+    "loadMore": "Charger plus",
+    "noChannels": "Aucune chaîne trouvée"
+  },
+  "countries": {
+    "title": "Pays",
+    "subtitle": "Recherchez un pays par nom ou code",
+    "searchPlaceholder": "Rechercher un pays...",
+    "channelsCount": "{{count}} chaînes"
+  },
+  "country": {
+    "channelsIn": "Chaînes en {{country}}",
+    "noChannels": "Aucune chaîne disponible pour ce pays"
+  },
+  "categories": {
+    "title": "Catégories",
+    "subtitle": "Parcourez les chaînes par catégorie",
+    "channelsIn": "Chaînes en {{category}}",
+    "noChannels": "Aucune chaîne dans cette catégorie"
+  },
+  "category": {
+    "channelsIn": "Chaînes en {{category}}",
+    "noChannels": "Aucune chaîne dans cette catégorie"
+  },
+  "favorites": {
+    "title": "Favoris",
+    "subtitle": "Vos chaînes favorites",
+    "empty": "Aucun favori pour l'instant",
+    "emptyDescription": "Cliquez sur l'icône cœur sur n'importe quelle chaîne pour l'ajouter à vos favoris",
+    "remove": "Retirer des favoris"
+  },
+  "history": {
+    "title": "Historique",
+    "subtitle": "Chaînes regardées récemment",
+    "empty": "Aucun historique pour l'instant",
+    "emptyDescription": "Les chaînes que vous regardez apparaîtront ici",
+    "clear": "Effacer l'historique"
+  },
+  "watch": {
+    "live": "EN DIRECT",
+    "offline": "HORS LIGNE",
+    "quality": "Qualité",
+    "fullscreen": "Plein écran",
+    "pictureInPicture": "Image dans l'image",
+    "reportIssue": "Signaler un problème",
+    "share": "Partager",
+    "addToFavorites": "Ajouter aux favoris",
+    "removeFromFavorites": "Retirer des favoris",
+    "channelInfo": "Info chaîne",
+    "country": "Pays",
+    "category": "Catégorie",
+    "language": "Langue"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "ar": "العربية"
+  },
+  "footer": {
+    "contact": "Contact",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "cookies": "Cookies",
+    "intellectualProperty": "Propriété Intellectuelle",
+    "report": "Signaler",
+    "legal": "Mentions légales"
+  },
+  "validation": {
+    "title": "Valider le flux",
+    "description": "Vérifiez si une URL de flux fonctionne",
+    "urlPlaceholder": "Entrez l'URL du flux (m3u8, mp4, etc.)",
+    "validate": "Valider",
+    "valid": "Le flux est valide",
+    "invalid": "Le flux est invalide ou inaccessible",
+    "checking": "Vérification du flux..."
+  }
+}
