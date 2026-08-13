@@ -19,3 +19,12 @@ build_output.txt
 dev.log
 temp_patch/
 *.tsbuildinfo
+
+# Dev/debug artifacts
+filelist.txt
+trace_filter.txt
+ts_errors.txt
+tsc_files.txt
+tsc_trace.txt
+tsc_trace_filtered.txt
+tmp-test-30.js
