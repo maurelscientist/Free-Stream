@@ -24,7 +24,11 @@ export const CONTENT_CATEGORY_OPTIONS = [
   'Automobile',
   'Mode',
   'Gaming',
-  'International'
+  'International',
+  'Généraliste',
+  'Cinéma',
+  'Locales',
+  'Internationales'
 ]
 
 export const REGION_OPTIONS = [
@@ -41,6 +45,24 @@ export const REGION_OPTIONS = [
   'Autres'
 ]
 
+export const QUALITY_OPTIONS = ['Toutes', '4K', '1080p', '720p', 'HD', 'SD']
+
+export const LANGUAGE_OPTIONS = [
+  'Toutes',
+  'Français',
+  'Anglais',
+  'Espagnol',
+  'Arabe',
+  'Allemand',
+  'Italien',
+  'Portugais',
+  'Russe',
+  'Chinois',
+  'Turc',
+  'Japonais',
+  'Coréen',
+]
+
 export function categoryKey(label: string) {
   return slugify(label)
 }
@@ -53,6 +75,8 @@ export interface ChannelFilterState {
   contentCategory: string
   region: string
   query: string
+  quality?: string
+  language?: string
 }
 
 function normalizeValue(value: string | undefined | null) {
@@ -156,8 +180,26 @@ function matchesQuery(channel: any, query: string) {
   return haystacks.some((value) => normalizeValue(value).includes(normalizedQuery))
 }
 
+function matchesQuality(channel: any, quality: string) {
+  if (!quality || quality === 'Toutes') return true
+  return normalizeValue(channel.quality) === normalizeValue(quality)
+}
+
+function matchesLanguage(channel: any, language: string) {
+  if (!language || language === 'Toutes') return true
+  const wanted = normalizeValue(language)
+  const langs: string[] = Array.isArray(channel.languages) ? channel.languages : []
+  return langs.some((l) => normalizeValue(l) === wanted)
+}
+
 export function filterChannels(channels: any[], filter: ChannelFilterState) {
   return channels.filter((channel) => {
-    return matchesContentCategory(channel, filter.contentCategory) && matchesRegion(channel, filter.region) && matchesQuery(channel, filter.query)
+    return (
+      matchesContentCategory(channel, filter.contentCategory) &&
+      matchesRegion(channel, filter.region) &&
+      matchesQuery(channel, filter.query) &&
+      matchesQuality(channel, filter.quality || 'Toutes') &&
+      matchesLanguage(channel, filter.language || 'Toutes')
+    )
   })
 }

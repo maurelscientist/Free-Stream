@@ -12,3 +12,10 @@ pnpm-debug.log*
 /.idea
 .cache
 distnode_modules
+
+# Local junk / duplicates
+clean_repo/
+build_output.txt
+dev.log
+temp_patch/
+*.tsbuildinfo
