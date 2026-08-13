@@ -1,4 +1,4 @@
-import { getCatalog, syncCatalog, getSyncStatus, isSyncRunning } from '../../lib/iptv/catalog'
+import { getCatalog, syncCatalog, getSyncStatus, isSyncRunning } from '../../../lib/iptv/catalog'
 
 export interface Stream {
   url: string

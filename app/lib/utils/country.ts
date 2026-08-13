@@ -44,7 +44,7 @@ const COUNTRY_NAME_TO_CODE: Record<string, string> = {
   'brunei': 'bn',
 }
 
-export function normalizeCountryCode(value?: string): string | null {
+export function normalizeCountryCode(value?: string | null): string | null {
   if (!value) return null
 
   let code = String(value).trim().toLowerCase()

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 import { fetchChannels } from '../../../lib/iptv'
-import { filterChannelsQuery } from '../../../lib/iptv/queryChannels'
+import { filterChannelsQuery } from '../../../../lib/iptv/queryChannels'
 import { getCache, setCache } from '../../../lib/cache'
 
 export async function GET(request: Request) {
